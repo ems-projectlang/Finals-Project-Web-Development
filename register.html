@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 17 Trial Version - https://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="Ems-Empower,_Music_&_Symphony.css" rel="stylesheet">
+<link href="register.css" rel="stylesheet">
+<script>
+function submitLayoutGrid1()
+{
+   var regexp;
+   var Editbox3 = document.getElementById('Editbox3');
+   if (!(Editbox3.disabled || Editbox3.style.display === 'none' || Editbox3.style.visibility === 'hidden'))
+   {
+      if (Editbox3.value == "")
+      {
+         alert("Please enter a value for the \"Name\" field.");
+         Editbox3.focus();
+         return false;
+      }
+   }
+   var Editbox1 = document.getElementById('Editbox1');
+   if (!(Editbox1.disabled || Editbox1.style.display === 'none' || Editbox1.style.visibility === 'hidden'))
+   {
+      if (Editbox1.value == "")
+      {
+         alert("Please enter a value for the \"email\" field.");
+         Editbox1.focus();
+         return false;
+      }
+   }
+   var Editbox4 = document.getElementById('Editbox4');
+   if (!(Editbox4.disabled || Editbox4.style.display === 'none' || Editbox4.style.visibility === 'hidden'))
+   {
+      if (Editbox4.value == "")
+      {
+         alert("Please enter a value for the \"contact no.\" field.");
+         Editbox4.focus();
+         return false;
+      }
+   }
+   var Editbox2 = document.getElementById('Editbox2');
+   if (!(Editbox2.disabled || Editbox2.style.display === 'none' || Editbox2.style.visibility === 'hidden'))
+   {
+      if (Editbox2.value == "")
+      {
+         alert("Please enter a value for the \"course\" field.");
+         Editbox2.focus();
+         return false;
+      }
+   }
+   var TextArea1 = document.getElementById('TextArea1');
+   if (!(TextArea1.disabled || TextArea1.style.display === 'none' || TextArea1.style.visibility === 'hidden'))
+   {
+      if (TextArea1.value == "")
+      {
+         alert("Please enter a value for the \"Message\" field.");
+         TextArea1.focus();
+         return false;
+      }
+   }
+   return true;
+}
+</script>
+</head>
+<body>
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:441px;top:967px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
+<div id="wb_LayoutGrid1">
+<form name="LayoutGrid1" method="post" action="<?php echo basename(__FILE__); ?>" enctype="multipart/form-data" id="LayoutGrid1" onsubmit="return submitLayoutGrid1()">
+<input type="hidden" name="formid" value="layoutgrid1">
+<div class="col-1">
+<div id="wb_Image1" style="display:inline-block;width:100%;height:auto;z-index:0;">
+<a href="./register.css"><img src="guitar-4772277_1280.jpg" id="Image1" alt="" width="570" height="855"></a>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_Text1">
+<span style="color:#FF0000;font-family:Tahoma;font-size:37px;"><strong>EMS- Empower, Music &amp; Symphony</strong></span><span style="color:#000000;font-family:Arial;font-size:13px;"><br></span>
+</div>
+<input type="text" id="Editbox3" style="display:block;width: 100%;height:52px;z-index:2;" name="Name" value="" spellcheck="false" placeholder="Name">
+<input type="text" id="Editbox1" style="display:block;width: 100%;height:52px;z-index:3;" name="email" value="" spellcheck="false" placeholder="Email">
+<input type="text" id="Editbox4" style="display:block;width: 100%;height:52px;z-index:4;" name="contact no." value="" spellcheck="false" placeholder="Contact No.">
+<input type="text" id="Editbox2" style="display:block;width: 100%;height:52px;z-index:5;" name="course" value="" spellcheck="false" placeholder="Course">
+<textarea name="Message" id="TextArea1" style="display:block;width: 100%;;height:127px;z-index:6;" rows="6" cols="60" spellcheck="false" placeholder="Message"></textarea>
+<input type="submit" id="Button1" name="" value="Send" style="display:inline-block;width:165px;height:67px;z-index:7;">
+<input type="reset" id="Button2" name="" value="Reset" style="display:inline-block;width:160px;height:67px;z-index:8;">
+</div>
+</form>
+</div>
+</body>
+</html>
